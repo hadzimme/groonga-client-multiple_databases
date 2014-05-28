@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "groonga-client-multiple_databases"
   spec.version       = Groonga::Client::MultipleDatabases::VERSION
   spec.authors       = ["Hajime Wakahara"]
-  spec.email         = ["hajime.wakahara@e-harp.jp"]
+  spec.email         = ["hadzimme@icloud.com"]
   spec.summary       = %q{Just a monkey patch for using multiple databases}
   spec.description   = %q{Just a monkey patch for using multiple databases}
   spec.homepage      = ""
