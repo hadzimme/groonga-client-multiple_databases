@@ -1,5 +1,5 @@
 module Groonga
-  module Client
+  class Client
     module MultipleDatabases
       VERSION = "0.0.1"
     end
