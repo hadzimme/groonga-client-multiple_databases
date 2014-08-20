@@ -21,7 +21,7 @@ module Groonga
             end
 
             uri_arguments = sorted_arguments.collect do |name, value|
-              "#{URI.encode(name.to_s)}=#{URI.encode(value)}"
+              "#{::URI.encode(name.to_s)}=#{::URI.encode(value)}"
             end
 
             path << "?"
