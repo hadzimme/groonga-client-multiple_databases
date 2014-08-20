@@ -22,7 +22,7 @@ module Groonga
 
             uri_arguments = sorted_arguments.collect do |name, value|
               # "#{CGI.escape(name.to_s)}=#{CGI.escape(value)}"
-              "#{URI.encode(name.to_s)}=#{URI.encode(value)}"
+              "#{::URI.encode(name.to_s)}=#{::URI.encode(value)}"
             end
 
             path << "?"
